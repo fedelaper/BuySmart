@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/fedelaper/Documents/proyectos/buySmart/env/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/fedelaper/Documents/proyectos/buySmart/env
+export npm_config_prefix=/Users/fedelaper/Documents/proyectos/buySmart/env
+exec env/bin/node "$@"
